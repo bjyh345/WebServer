@@ -11,6 +11,10 @@ TODO:
 1. 增加其他方法如POST, HEAD的支持；
 2. 使用Velocity支持动态资源的请求；
 
+使用方法：
+修改Constants类中的根目录STATIC_ROOT_PATH，然后运行HttpServer类，用地址 127.0.0.1:9090/[filename] 获取指定文件。
+
+
 项目框架：
 
 <img src="https://raw.githubusercontent.com/bjyh345/imgBeg/master/image-20220414180958536.png" alt="image-20220414180958536" style="zoom:67%;" />
